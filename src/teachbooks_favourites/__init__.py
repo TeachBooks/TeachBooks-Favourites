@@ -3,7 +3,7 @@
 sphinx_accessibility
 ~~~~~~~~~~~~~~~~~~~~
 
-A collection of our favorite Sphinx extensions for use in JupyterBooks.
+A collection of our favourite Sphinx extensions for use in JupyterBooks.
 
 """
 

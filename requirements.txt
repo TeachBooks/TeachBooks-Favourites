@@ -1,0 +1,13 @@
+sphinx
+jupyterbook-patches
+download-link-replacer
+sphinx-image-inverter
+teachbooks-sphinx-tippy
+sphinx-exercise
+sphinx-iframes
+sphinx-named-colors
+sphinx-dropdown-toggle
+sphinx-togglebutton
+sphinx-proof
+sphinx-code-examples
+sphinx-accessibility

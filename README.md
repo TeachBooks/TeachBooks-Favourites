@@ -66,14 +66,14 @@ To install TeachBooks-Favourites, follow these steps:
 
 Install the `teachbooks-favourites` package using `pip`:
 ```
-pip install teachbooks-favourites
+pip install git+https://github.com/TeachBooks/TeachBooks-Favourites
 ```
 
 **Step 2: Add to `requirements.txt`**
 
 Make sure that the package is included in your project's `requirements.txt` to track the dependency:
 ```
-teachbooks-favourites
+git+https://github.com/TeachBooks/TeachBooks-Favourites
 ```
 
 **Step 3: Enable in `_config.yml`**

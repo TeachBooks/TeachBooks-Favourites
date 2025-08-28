@@ -11,4 +11,3 @@ updates:
       all-deps:
         patterns:
           - "*"
-    ignore: []       # include all updates, including majors

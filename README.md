@@ -89,6 +89,8 @@ sphinx:
 
 For using the various package we refer to the different manuals linked above.
 
+All extensions are loaded with their default settings.
+
 ## Contribute
 
 Do you think we missed an extension that should really be included? Let us know by either

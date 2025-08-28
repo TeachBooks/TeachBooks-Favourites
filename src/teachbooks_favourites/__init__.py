@@ -16,7 +16,9 @@ def setup(app: Sphinx) -> Dict[str, Any]:
     app.setup_extension("download_link_replacer")
     app.setup_extension("sphinx_image_inverter")
     app.setup_extension("sphinx_iframes")
-    app.setup_extension("sphinx_exercise")
+    # waiting for merge of https://github.com/executablebooks/sphinx-exercise/pull/75,
+    # after merge, remove "teachbooks_",
+    app.setup_extension("teachbooks_sphinx_exercise")
     app.setup_extension("teachbooks_sphinx_tippy")
     app.setup_extension("sphinx_named_colors")
     app.setup_extension("sphinx_dropdown_toggle")

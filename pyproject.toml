@@ -18,13 +18,16 @@ dependencies = [
     "sphinx-image-inverter==v1.1.9",
     "teachbooks-sphinx-tippy==v1.0.13",
     # waiting for merge of https://github.com/executablebooks/sphinx-exercise/pull/75,
-    "sphinx-exercise @ git+https://github.com/TeachBooks/sphinx-exercise.git",
+    # after merge, remove "teachbooks-" and update version,
+    "teachbooks-sphinx-exercise==v1.0.1",
     "sphinx-iframes==v1.0.7",
     "sphinx-named-colors==v1.0.1",
     "sphinx-dropdown-toggle==v1.3.1",
     # waiting for merge of https://github.com/executablebooks/sphinx-togglebutton/pull/66,
+    # after merge, remove "teachbooks-" and update version
     "sphinx-togglebutton @ git+https://github.com/TeachBooks/sphinx-togglebutton.git",
-    #waiting for merge of https://github.com/executablebooks/sphinx-proof/pull/146,
+    # waiting for merge of https://github.com/executablebooks/sphinx-proof/pull/146,
+    # after merge, remove "teachbooks-" and update version,
     "sphinx-proof @ git+https://github.com/TeachBooks/sphinx-proof.git",
     "sphinx-code-examples==v1.2.1",
     "sphinx-accessibility==v1.0.1"

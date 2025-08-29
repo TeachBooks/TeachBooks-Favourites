@@ -5,6 +5,9 @@ A collection of our favourite Sphinx extensions for use in JupyterBooks.
 ## Introduction
 This Sphinx extension provides a single extension that includes and activates our favourite Sphinx extensions for use in JupyterBooks:
 
+- Sphinx-Thebe from TeachBooks:
+  - Enabled live code in your browser
+  - Manual: https://teachbooks.io/manual/features/live_code.html
 - Jupyterbook patches:
   - Various patches by TeachBooks
   - Repository: https://github.com/TeachBooks/JupyterBook-Patches

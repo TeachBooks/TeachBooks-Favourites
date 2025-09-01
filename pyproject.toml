@@ -21,7 +21,7 @@ dependencies = [
     # waiting for merge of https://github.com/executablebooks/sphinx-exercise/pull/75,
     "sphinx-exercise @ git+https://github.com/TeachBooks/sphinx-exercise.git",
     "sphinx-iframes==v1.0.7",
-    "sphinx-named-colors==v1.0.1",
+    "sphinx-named-colors==v1.0.2",
     "sphinx-dropdown-toggle==v1.3.1",
     # waiting for merge of https://github.com/executablebooks/sphinx-togglebutton/pull/66,
     "sphinx-togglebutton @ git+https://github.com/TeachBooks/sphinx-togglebutton.git",

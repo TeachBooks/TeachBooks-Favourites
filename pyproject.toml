@@ -29,7 +29,7 @@ dependencies = [
     "sphinx-proof @ git+https://github.com/TeachBooks/sphinx-proof.git",
     "sphinx-code-examples==v1.2.1",
     "sphinx-accessibility==v1.0.1",
-    "sphinx-nb-execution-patterns=v1.0.0"
+    "sphinx-nb-execution-patterns==v1.0.0"
 ]
 
 requires-python = ">=3.10"

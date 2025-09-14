@@ -23,6 +23,7 @@ def setup(app: Sphinx) -> Dict[str, Any]:
     app.setup_extension("sphinx_proof")
     app.setup_extension("sphinx_code_examples")
     app.setup_extension("sphinx_accessibility")
+    app.setup_extension("sphinx_nb_execution_patterns")
 
     return {
         "version": "builtin",

@@ -60,6 +60,10 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Repository: https://github.com/TeachBooks/sphinx-togglebutton
   - Manual: https://sphinx-togglebutton.readthedocs.io/en/latest/
   - Remark: Currently this is set to the TeachBooks fork, waiting for merge of https://github.com/executablebooks/sphinx-togglebutton/pull/66
+- NoteBook Execution Patterns
+  - Allows include and exclude patterns for execution of notebooks during build
+  - Repository: https://github.com/TeachBooks/Sphinx-NB-Execution-Patterns
+  - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-NB-Execution-Patterns/Manual/README.html
 
 
 ## Installation

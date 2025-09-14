@@ -54,7 +54,7 @@ This Sphinx extension provides a single extension that includes and activates ou
 - Sphinx accessibility
   - Allows dyslexic-friendly fonts and high contrast mode
   - Repository: https://github.com/TeachBooks/sphinx-accessibility
-  - Manual: https://teachbooks.io/manual/accessibility/_git/github.com_TeachBooks_Sphinx-Accessibility/manual/README.html
+  - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Accessibility/manual/README.html
 - Sphinx toggle button
   - Allows you to add a toggle button to elements in your book
   - Repository: https://github.com/TeachBooks/sphinx-togglebutton

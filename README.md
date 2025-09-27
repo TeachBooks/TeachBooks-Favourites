@@ -67,7 +67,7 @@ This Sphinx extension provides a single extension that includes and activates ou
 - Sphinx Launch Buttons
   - Allows you to add a customizable button with links to the top right corner of your book
   - Repository: https://github.com/TeachBooks/manual
-  - Manaul: https://teachbooks.io/manual/external/Sphinx-launch-buttons/README.html
+  - Manual: https://teachbooks.io/manual/external/Sphinx-launch-buttons/README.html
 
 
 ## Installation

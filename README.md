@@ -64,6 +64,10 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Allows include and exclude patterns for execution of notebooks during build
   - Repository: https://github.com/TeachBooks/Sphinx-NB-Execution-Patterns
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-NB-Execution-Patterns/Manual/README.html
+- Sphinx Launch Buttons
+  - Allows you to add a customizable button with links to the top right corner of your book
+  - Repository: https://github.com/TeachBooks/manual
+  - Manaul: https://teachbooks.io/manual/external/Sphinx-launch-buttons/README.html
 
 
 ## Installation

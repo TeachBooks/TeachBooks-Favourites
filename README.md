@@ -71,7 +71,7 @@ This Sphinx extension provides a single extension that includes and activates ou
 - Open in new tab
   - Allows you open links in a new tab
   - Repository: https://github.com/ftnext/sphinx-new-tab-link
-  - Documentation: https://ftnext.github.io/sphinx-new-tab-link/guide.en.html#english-guide
+  - Documentation: https://pypi.org/project/sphinx-new-tab-link/
 
 
 ## Installation

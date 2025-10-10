@@ -68,6 +68,10 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Allows you to add a customizable button with links to the top right corner of your book
   - Repository: https://github.com/TeachBooks/manual
   - Manual: https://teachbooks.io/manual/external/Sphinx-launch-buttons/README.html
+- Open in new tab
+  - Allows you open links in a new tab
+  - Repository: https://github.com/ftnext/sphinx-new-tab-link
+  - Documentation: https://pypi.org/project/sphinx-new-tab-link/
 
 
 ## Installation

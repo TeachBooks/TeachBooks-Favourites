@@ -69,6 +69,11 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Repository: https://github.com/TeachBooks/manual
   - Manual: https://teachbooks.io/manual/external/Sphinx-launch-buttons/README.html
 
+The following extension is nice, but is not compatible with all setups (dependency clash) so is not included in TeachBooks-Favourites:
+- Open in new tab
+  - Allows you open links in a new tab
+  - Repository: https://github.com/ftnext/sphinx-new-tab-link
+  - Documentation: https://pypi.org/project/sphinx-new-tab-link/
 
 ## Installation
 To install TeachBooks-Favourites, follow these steps:

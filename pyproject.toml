@@ -15,7 +15,7 @@ dependencies = [
     "sphinx",
     "sphinx-thebe @ git+https://github.com/TeachBooks/Sphinx-Thebe",
     "jupyterbook-patches==v1.9.0",
-    "download-link-replacer==v1.0.4",
+    "download-link-replacer==v1.0.5",
     "sphinx-image-inverter==v1.1.10",
     "teachbooks-sphinx-tippy==v1.0.15",
     # waiting for merge of https://github.com/executablebooks/sphinx-exercise/pull/75,

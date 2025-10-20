@@ -44,7 +44,7 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Dropdown-Toggle/main/MANUAL.html
 - Sphinx proof:
   - Allows you to add various common math admonitions such as theorems to your book
-  - Repository: https://github.com/TeachBooks/sphinx-proof
+  - Repository: https://github.com/executablebooks/sphinx-proof
   - Manual: https://sphinx-proof.readthedocs.io/en/latest/
 - Sphinx code examples
   - Allows you to include code blocks and alternative visuals in examples

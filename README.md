@@ -44,9 +44,8 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Dropdown-Toggle/main/MANUAL.html
 - Sphinx proof:
   - Allows you to add various common math admonitions such as theorems to your book
-  - Repository: https://github.com/TeachBooks/sphinx-proof
+  - Repository: https://github.com/executablebooks/sphinx-proof
   - Manual: https://sphinx-proof.readthedocs.io/en/latest/
-  - Remark: Currently this is set to the TeachBooks fork, waiting for merge of https://github.com/executablebooks/sphinx-proof/pull/146
 - Sphinx code examples
   - Allows you to include code blocks and alternative visuals in examples
   - Repository: https://github.com/TeachBooks/sphinx-code-examples
@@ -74,6 +73,13 @@ The following extension is nice, but is not compatible with all setups (dependen
   - Allows you open links in a new tab
   - Repository: https://github.com/ftnext/sphinx-new-tab-link
   - Documentation: https://pypi.org/project/sphinx-new-tab-link/
+
+The following extensions are included by default in your Jupyterbook distribution, but are included as dependencies to ensure you have the version of TeachBooks:
+- Sphinx External ToC:
+  - Allows you to define the Table of Contents external to the documentation files and set styling options per ToC-subtree.
+  - Repository: https://github.com/TeachBooks/sphinx-external-toc
+  - Manual: https://sphinx-external-toc.readthedocs.io/
+  - Remark: Currently this is set to the TeachBooks fork, waiting for merge of https://github.com/executablebooks/sphinx-external-toc/pull/112
 
 ## Installation
 To install TeachBooks-Favourites, follow these steps:

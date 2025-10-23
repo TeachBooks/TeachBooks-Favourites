@@ -26,9 +26,8 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Manual: https://teachbooks.io/manual/external/sphinx-iframes/README.html
 - Sphinx exercise:
   - Allows you to add exercise admonitions to your book
-  - Repository: https://github.com/TeachBooks/sphinx-exercise
+  - Repository: https://github.com/executablebooks/sphinx-exercise
   - Manual: https://ebp-sphinx-exercise.readthedocs.io/en/latest/
-  - Remark: Currently this is set to the TeachBooks fork, waiting for merge of https://github.com/executablebooks/sphinx-exercise/pull/75
 - Teachbooks Sphinx tippy
   - Enables hover over tips
   - Repository: https://github.com/TeachBooks/teachbooks-sphinx-tippy

@@ -28,7 +28,7 @@ dependencies = [
     "sphinx-code-examples==v1.2.1",
     "sphinx-accessibility==v1.0.1",
     "sphinx-nb-execution-patterns==v1.0.0",
-    "sphinx-launch-buttons==v1.0.5",
+    "sphinx-launch-buttons==v1.0.6",
     # waiting for merge of https://github.com/executablebooks/sphinx-external-toc/pull/112,
     "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc.git"
 ]

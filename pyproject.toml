@@ -30,7 +30,8 @@ dependencies = [
     "sphinx-nb-execution-patterns==v1.0.0",
     "sphinx-launch-buttons==v1.0.6",
     # waiting for merge of https://github.com/executablebooks/sphinx-external-toc/pull/112,
-    "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc.git"
+    "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc.git",
+    "sphinx-github-alerts==v1.0"
 ]
 
 requires-python = ">=3.10"

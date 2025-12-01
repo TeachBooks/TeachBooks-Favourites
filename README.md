@@ -70,6 +70,10 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Converts GitHub alerts to Sphinx admonitions.
   - Repository: https://github.com/TeachBooks/Sphinx-GitHub-Alerts
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-GitHub-Alerts/main/README.html
+- Spinx Metadata Figure
+  - Provides an interface to add metadata to figures and display the metadata.
+  - Repository: https://github.com/TeachBooks/Sphinx-Metadata-Figure
+  - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Metadata-Figure/main/MANUAL.html
 
 The following extension is nice, but is not compatible with all setups (dependency clash) so is not included in TeachBooks-Favourites:
 - Open in new tab

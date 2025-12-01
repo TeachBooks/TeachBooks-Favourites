@@ -26,6 +26,7 @@ def setup(app: Sphinx) -> Dict[str, Any]:
     app.setup_extension("sphinx_nb_execution_patterns")
     app.setup_extension("sphinx-launch-buttons")
     app.setup_extension("sphinx_github_alerts")
+    app.setup_extension("sphinx_metadata_figure")
 
     return {
         "version": "builtin",

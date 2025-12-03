@@ -32,7 +32,7 @@ dependencies = [
     # waiting for merge of https://github.com/executablebooks/sphinx-external-toc/pull/112,
     "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc.git",
     "sphinx-github-alerts==v1.0",
-    "Sphinx-Metadata-Figure==v1.0.3"
+    "sphinx-metadata-figure==v1.1.0"
 ]
 
 requires-python = ">=3.10"

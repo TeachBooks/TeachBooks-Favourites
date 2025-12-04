@@ -14,7 +14,7 @@ authors = [
 dependencies = [
     "sphinx",
     "sphinx-thebe @ git+https://github.com/TeachBooks/Sphinx-Thebe",
-    "jupyterbook-patches==v1.11.0",
+    "jupyterbook-patches==v1.11.1",
     "download-link-replacer==v1.0.6",
     "sphinx-image-inverter==v1.1.10",
     "teachbooks-sphinx-tippy==v1.0.15",

@@ -19,7 +19,7 @@ dependencies = [
     "sphinx-image-inverter==v1.1.10",
     "teachbooks-sphinx-tippy==v1.0.15",
     "sphinx-exercise==1.2.1",
-    "sphinx-iframes==v1.1.1",
+    "sphinx-iframes==v1.2.0",
     "sphinx-named-colors==v1.0.3",
     "sphinx-dropdown-toggle==v1.3.1",
     # waiting for merge of https://github.com/executablebooks/sphinx-togglebutton/pull/66,
@@ -32,7 +32,7 @@ dependencies = [
     # waiting for merge of https://github.com/executablebooks/sphinx-external-toc/pull/112,
     "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc.git",
     "sphinx-github-alerts==v1.0",
-    "sphinx-metadata-figure==v1.1.0"
+    "sphinx-metadata-figure==v1.1.1"
 ]
 
 requires-python = ">=3.10"

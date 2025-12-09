@@ -16,7 +16,7 @@ dependencies = [
     "sphinx-thebe @ git+https://github.com/TeachBooks/Sphinx-Thebe",
     "jupyterbook-patches==v1.11.3",
     "download-link-replacer==v1.0.6",
-    "sphinx-image-inverter==v1.1.10",
+    "sphinx-image-inverter==v1.1.11",
     "teachbooks-sphinx-tippy==v1.0.15",
     "sphinx-exercise==1.2.1",
     "sphinx-iframes==v1.2.0",

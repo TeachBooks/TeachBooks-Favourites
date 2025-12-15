@@ -13,7 +13,7 @@ authors = [
 ]
 dependencies = [
     "sphinx",
-    "sphinx-thebe @ git+https://github.com/TeachBooks/Sphinx-Thebe",
+    "sphinx-thebe @ git+https://github.com/TeachBooks/Sphinx-Thebe@2a01955",
     "jupyterbook-patches==v1.11.4",
     "download-link-replacer==v1.0.6",
     "sphinx-image-inverter==v1.1.11",
@@ -23,14 +23,14 @@ dependencies = [
     "sphinx-named-colors==v1.0.3",
     "sphinx-dropdown-toggle==v1.3.1",
     # waiting for merge of https://github.com/executablebooks/sphinx-togglebutton/pull/66,
-    "sphinx-togglebutton @ git+https://github.com/TeachBooks/sphinx-togglebutton.git",
+    "sphinx-togglebutton @ git+https://github.com/TeachBooks/sphinx-togglebutton@7af7c7b",
     "sphinx-proof==0.3.0",
     "sphinx-code-examples==v1.2.1",
     "sphinx-accessibility==v1.0.1",
     "sphinx-nb-execution-patterns==v1.0.0",
     "sphinx-launch-buttons==v1.0.6",
     # waiting for merge of https://github.com/executablebooks/sphinx-external-toc/pull/112,
-    "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc.git",
+    "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc@e280561",
     "sphinx-github-alerts==v1.0",
     "sphinx-metadata-figure==v1.2.2"
 ]

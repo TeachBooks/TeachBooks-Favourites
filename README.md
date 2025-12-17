@@ -76,7 +76,8 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Metadata-Figure/main/MANUAL.html
 - Sphinx last updated by git
   - Allows a last updated note for every single page based on git history.
-  - Repository + documentation: https://github.com/mgeier/sphinx-last-updated-by-git
+  - Repository + documentation: https://github.com/TeachBooks/sphinx-last-updated-by-git
+  - Remark: Currently this is set to the TeachBooks fork, waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97
 
 The following extension is nice, but is not compatible with all setups (dependency clash) so is not included in TeachBooks-Favourites:
 - Open in new tab

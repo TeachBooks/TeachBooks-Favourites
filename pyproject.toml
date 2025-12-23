@@ -34,7 +34,7 @@ dependencies = [
     "sphinx-github-alerts==v1.0",
     "sphinx-metadata-figure==v1.2.3",
     # waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97,
-    "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@7e24514"
+    "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@2c936c2"
 ]
 
 requires-python = ">=3.10"

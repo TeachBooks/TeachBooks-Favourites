@@ -25,7 +25,7 @@ dependencies = [
     # waiting for merge of https://github.com/executablebooks/sphinx-togglebutton/pull/66,
     "sphinx-togglebutton @ git+https://github.com/TeachBooks/sphinx-togglebutton@7af7c7b",
     "sphinx-proof==0.3.0",
-    "sphinx-code-examples==v1.2.1",
+    "sphinx-code-examples==v1.2.2",
     "sphinx-accessibility==v1.0.1",
     "sphinx-nb-execution-patterns==v1.0.0",
     "sphinx-launch-buttons==v1.0.6",

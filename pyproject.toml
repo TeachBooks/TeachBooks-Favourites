@@ -35,7 +35,7 @@ dependencies = [
     "sphinx-metadata-figure==v1.3.1",
     # waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97,
     "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@1b21fe5",
-    "sphinx-gated-directives==v1.0.1"
+    "sphinx-gated-directives==v1.0.2"
 ]
 
 requires-python = ">=3.10"

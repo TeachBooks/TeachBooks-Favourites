@@ -30,7 +30,7 @@ dependencies = [
     "sphinx-nb-execution-patterns==v1.1.0",
     "sphinx-launch-buttons==v1.0.7",
     # waiting for merge of https://github.com/executablebooks/sphinx-external-toc/pull/112,
-    "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc@8ae19b9",
+    "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc@fd4b7dc",
     "sphinx-github-alerts==v1.0",
     "sphinx-metadata-figure==v1.3.1",
     # waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97,

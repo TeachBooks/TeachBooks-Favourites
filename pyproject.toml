@@ -33,7 +33,7 @@ dependencies = [
     "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc@e280561",
     "sphinx-github-alerts==v1.0",
     #"sphinx-metadata-figure==v1.2.2",
-    "sphinx-metadata-figure @ git+https://github.com/TeachBooks/Sphinx-Metadata-Figure@claude-add-bib-entry-support-CnT5M",
+    "sphinx-metadata-figure @ git+https://github.com/TeachBooks/Sphinx-Metadata-Figure@claude/add-bib-entry-support-R6c2I",
     # waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97,
     "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@7e24514"
 ]

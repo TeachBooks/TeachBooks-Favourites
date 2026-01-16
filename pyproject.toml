@@ -28,7 +28,6 @@ dependencies = [
     "sphinx-accessibility==v1.0.1",
     "sphinx-nb-execution-patterns==v1.1.0",
     "sphinx-launch-buttons==v1.0.7",
-    "sphinx_external_toc==v1.1.0",
     "sphinx-github-alerts==v1.0",
     "sphinx-metadata-figure==v1.3.4",
     # waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97,

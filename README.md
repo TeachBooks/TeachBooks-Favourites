@@ -89,13 +89,6 @@ The following extension is nice, but is not compatible with all setups (dependen
   - Repository: https://github.com/ftnext/sphinx-new-tab-link
   - Documentation: https://pypi.org/project/sphinx-new-tab-link/
 
-The following extensions are included by default in your Jupyterbook distribution, but are included as dependencies to ensure you have the version of TeachBooks:
-- Sphinx External ToC:
-  - Allows you to define the Table of Contents external to the documentation files and set styling options per ToC-subtree.
-  - Repository: https://github.com/TeachBooks/sphinx-external-toc
-  - Manual: https://sphinx-external-toc.readthedocs.io/
-  - Remark: Currently this is set to the TeachBooks fork, waiting for merge of https://github.com/executablebooks/sphinx-external-toc/pull/112
-
 ## Installation
 To install TeachBooks-Favourites, follow these steps:
 
@@ -124,7 +117,7 @@ sphinx:
 
 ## Usage
 
-For using the various package we refer to the different manuals linked above.
+For using the various packages we refer to the different manuals linked above.
 
 All extensions are loaded with their default settings.
 

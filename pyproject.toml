@@ -28,10 +28,8 @@ dependencies = [
     "sphinx-accessibility==v1.0.1",
     "sphinx-nb-execution-patterns==v1.1.0",
     "sphinx-launch-buttons==v1.0.7",
-    # waiting for merge of https://github.com/executablebooks/sphinx-external-toc/pull/112,
-    "sphinx_external_toc @ git+https://github.com/TeachBooks/sphinx-external-toc@417b0fe",
     "sphinx-github-alerts==v1.0",
-    "sphinx-metadata-figure==v1.3.1",
+    "sphinx-metadata-figure==v1.3.4",
     # waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97,
     "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@all_authors",
     "sphinx-gated-directives==v1.0.2"

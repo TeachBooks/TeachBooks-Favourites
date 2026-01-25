@@ -31,7 +31,7 @@ dependencies = [
     "sphinx-github-alerts==v1.0",
     "sphinx-metadata-figure==v1.4.0",
     # waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97,
-    "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@66c5b8b",
+    "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@68d2a66",
     "sphinx-gated-directives==v1.0.2"
 ]
 

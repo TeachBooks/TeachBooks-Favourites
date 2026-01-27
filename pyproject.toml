@@ -23,7 +23,7 @@ dependencies = [
     "sphinx-named-colors==v1.0.3",
     "sphinx-dropdown-toggle==v1.3.3",
     "sphinx-togglebutton==v0.4.4",
-    "sphinx-proof==0.3.0",
+    "sphinx-proof==0.4.0",
     "sphinx-code-examples==v1.2.3",
     "sphinx-accessibility==v1.0.1",
     "sphinx-nb-execution-patterns==v1.1.0",

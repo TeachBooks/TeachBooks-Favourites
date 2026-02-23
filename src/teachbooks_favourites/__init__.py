@@ -29,6 +29,7 @@ def setup(app: Sphinx) -> Dict[str, Any]:
     app.setup_extension("sphinx_metadata_figure")
     app.setup_extension("sphinx_last_updated_by_git")
     app.setup_extension("sphinx_gated_directives")
+    app.setup_extension("teachbooks_zoomies")
 
     return {
         "version": "builtin",

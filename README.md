@@ -82,9 +82,13 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Allows to used gated directives: more granular control over where the directive starts and ends and nesting directives more easily allowing nesting of code-celsl
   - Repository: https://github.com/TeachBooks/Sphinx-Gated-Directives
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Gated-Directives/main/MANUAL.html
-- teachbooks-zoomies
+- Teachbooks Zoomies
   - Allows clickable images and figures: clicking on an image opens a zoomable view.
   - Repository: https://github.com/TeachBooks/TeachBooks-Zoomies/
+- Teachbooks Questions
+  - Allows you to add interactive questions to your book.
+  - Repository: https://github.com/TeachBooks/TeachBooks-Questions
+  - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_TeachBooks-Questions/main/MANUAL.html
 
 The following extension is nice, but is not compatible with all setups (dependency clash) so is not included in TeachBooks-Favourites:
 - Open in new tab

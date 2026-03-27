@@ -33,7 +33,8 @@ dependencies = [
     # waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97,
     "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@986142b",
     "sphinx-gated-directives==v1.1.0",
-    "teachbooks-zoomies==0.2.3",
+    #"teachbooks-zoomies==0.2.3",
+    "teachbooks-zoomies @ git+https://github.com/TeachBooks/TeachBooks-Zoomies@16-expand-zoomies-to-sidebar",
     "teachbooks-questions==0.1.5"
 ]
 

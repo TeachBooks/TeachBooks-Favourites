@@ -22,7 +22,7 @@ dependencies = [
     "sphinx-iframes==v1.2.0",
     "sphinx-named-colors==v1.0.3",
     "sphinx-dropdown-toggle==v1.3.3",
-    "sphinx-togglebutton==v0.4.4",
+    "sphinx-togglebutton==v0.4.5",
     "sphinx-proof==0.4.0",
     "sphinx-code-examples==v1.2.3",
     "sphinx-accessibility==v1.0.1",

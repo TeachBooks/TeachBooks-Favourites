@@ -22,7 +22,7 @@ dependencies = [
     "sphinx-iframes==v1.2.0",
     "sphinx-named-colors==v1.0.3",
     "sphinx-dropdown-toggle==v1.3.3",
-    "sphinx-togglebutton==v0.4.4",
+    "sphinx-togglebutton==v0.4.5",
     "sphinx-proof==0.4.0",
     "sphinx-code-examples==v1.2.3",
     "sphinx-accessibility==v1.0.1",
@@ -32,9 +32,9 @@ dependencies = [
     "sphinx-metadata-figure==v1.5.1",
     # waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97,
     "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@986142b",
-    "sphinx-gated-directives==v1.1.0",
-    "teachbooks-zoomies==0.2.3",
-    "teachbooks-questions==0.1.4",
+    "sphinx-gated-directives==v1.1.2",
+    "teachbooks-zoomies==0.2.4",
+    "teachbooks-questions==0.1.6",
     "sphinx-sticky-margin"
 ]
 

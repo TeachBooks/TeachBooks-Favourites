@@ -89,6 +89,10 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Allows you to add interactive questions to your book.
   - Repository: https://github.com/TeachBooks/TeachBooks-Questions
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_TeachBooks-Questions/main/MANUAL.html
+- Sphinx-Sticky-Margin
+  - Allows you to add a sticky copy figure in the margin
+  - Repository: https://github.com/TeachBooks/Sphinx-Sticky-Margin
+  - Manual: https://teachbooks.io/manual/_git/github.com_Sphinx_Sticky_Margin/main/MANUAL.html
 
 The following extension is nice, but is not compatible with all setups (dependency clash) so is not included in TeachBooks-Favourites:
 - Open in new tab

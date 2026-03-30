@@ -34,7 +34,8 @@ dependencies = [
     "sphinx-last-updated-by-git @ git+https://github.com/TeachBooks/sphinx-last-updated-by-git@986142b",
     "sphinx-gated-directives==v1.1.2",
     "teachbooks-zoomies==0.2.4",
-    "teachbooks-questions==0.1.6"
+    "teachbooks-questions==0.1.6",
+    "sphinx-sticky-margin"
 ]
 
 requires-python = ">=3.10"

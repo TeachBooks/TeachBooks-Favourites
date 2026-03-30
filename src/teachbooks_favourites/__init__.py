@@ -31,7 +31,8 @@ def setup(app: Sphinx) -> Dict[str, Any]:
     app.setup_extension("sphinx_gated_directives")
     app.setup_extension("teachbooks_zoomies")
     app.setup_extension("teachbooks_questions")
-
+    app.setup_extension("sphinx_sticky_margin")
+    
     return {
         "version": "builtin",
         "parallel_read_safe": False,

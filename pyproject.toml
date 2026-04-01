@@ -35,7 +35,7 @@ dependencies = [
     "sphinx-gated-directives==v1.1.2",
     "teachbooks-zoomies==0.2.4",
     "teachbooks-questions==0.1.6",
-    "sphinx-sticky-margin @ git+https://github.com/TeachBooks/Sphinx-Sticky-Margin@remove-double-spaces",
+    "sphinx-sticky-margin @ git+https://github.com/TeachBooks/Sphinx-Sticky-Margin@trigger_and_figlxass",
     #"sphinx-sticky-margin"
 ]
 

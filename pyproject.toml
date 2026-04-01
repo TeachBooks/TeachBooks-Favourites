@@ -35,7 +35,7 @@ dependencies = [
     "sphinx-gated-directives==v1.1.2",
     "teachbooks-zoomies==0.2.4",
     "teachbooks-questions==0.1.6",
-    "sphinx-sticky-margin"
+    "sphinx-sticky-margin==1.1.0"
 ]
 
 requires-python = ">=3.10"

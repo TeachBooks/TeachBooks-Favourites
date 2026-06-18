@@ -93,6 +93,10 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Allows you to add a sticky copy figure in the margin
   - Repository: https://github.com/TeachBooks/Sphinx-Sticky-Margin
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Sticky-Margin/main/MANUAL.html
+- TeachBooks Fetch
+  - Allows you to fetch html elements from other pages
+  - Repository: https://github.com/TeachBooks/TeachBooks-Fetch/
+  - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_TeachBooks-Fetch/main/MANUAL.html
 
 The following extension is nice, but is not compatible with all setups (dependency clash) so is not included in TeachBooks-Favourites:
 - Open in new tab

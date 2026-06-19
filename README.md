@@ -97,6 +97,10 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Allows you to fetch html elements from other pages
   - Repository: https://github.com/TeachBooks/TeachBooks-Fetch/
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_TeachBooks-Fetch/main/MANUAL.html
+- Sphinx to do
+  - Allows you to add to do items
+  - Repository: https://github.com/sphinx-doc/sphinx/blob/master/sphinx/ext/todo.py
+  - Manual: https://www.sphinx-doc.org/en/master/usage/extensions/todo.html
 
 The following extension is nice, but is not compatible with all setups (dependency clash) so is not included in TeachBooks-Favourites:
 - Open in new tab

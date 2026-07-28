@@ -1,40 +1,67 @@
 # -*- coding: utf-8 -*-
 """
-sphinx_accessibility
-~~~~~~~~~~~~~~~~~~~~
+teachbooks_favourites
+~~~~~~~~~~~~~~~~~~~~~
 
 A collection of our favourite Sphinx extensions for use in JupyterBooks.
 
 """
 
-from typing import Any, Dict
+from typing import Any, Dict, List
 from sphinx.application import Sphinx
+from sphinx.errors import ConfigError
+
+
+ALL_EXTENSIONS: List[str] = [
+    "jupyterbook_patches",
+    "download_link_replacer",
+    "sphinx_image_inverter",
+    "sphinx_iframes",
+    "sphinx_exercise",
+    "teachbooks_sphinx_tippy",
+    "sphinx_named_colors",
+    "sphinx_dropdown_toggle",
+    "sphinx_proof",
+    "sphinx_code_examples",
+    "sphinx_accessibility",
+    "sphinx_nb_execution_patterns",
+    "sphinx-launch-buttons",
+    "sphinx_github_alerts",
+    "sphinx_metadata_figure",
+    "sphinx_last_updated_by_git",
+    "sphinx_gated_directives",
+    "teachbooks_zoomies",
+    "teachbooks_questions",
+    "sphinx_sticky_margin",
+    "teachbooks_fetch",
+    "sphinx.ext.todo",
+]
 
 
 def setup(app: Sphinx) -> Dict[str, Any]:
-    app.setup_extension("jupyterbook_patches")
-    app.setup_extension("download_link_replacer")
-    app.setup_extension("sphinx_image_inverter")
-    app.setup_extension("sphinx_iframes")
-    app.setup_extension("sphinx_exercise")
-    app.setup_extension("teachbooks_sphinx_tippy")
-    app.setup_extension("sphinx_named_colors")
-    app.setup_extension("sphinx_dropdown_toggle")
-    app.setup_extension("sphinx_proof")
-    app.setup_extension("sphinx_code_examples")
-    app.setup_extension("sphinx_accessibility")
-    app.setup_extension("sphinx_nb_execution_patterns")
-    app.setup_extension("sphinx-launch-buttons")
-    app.setup_extension("sphinx_github_alerts")
-    app.setup_extension("sphinx_metadata_figure")
-    app.setup_extension("sphinx_last_updated_by_git")
-    app.setup_extension("sphinx_gated_directives")
-    app.setup_extension("teachbooks_zoomies")
-    app.setup_extension("teachbooks_questions")
-    app.setup_extension("sphinx_sticky_margin")
-    app.setup_extension("teachbooks_fetch")
-    app.setup_extension("sphinx.ext.todo")
-    
+    app.add_config_value("teachbooks_favourites_include", [], "env")
+    app.add_config_value("teachbooks_favourites_exclude", [], "env")
+
+    include: List[str] = app.config.teachbooks_favourites_include
+    exclude: List[str] = app.config.teachbooks_favourites_exclude
+
+    if include and exclude:
+        raise ConfigError(
+            "teachbooks_favourites: 'teachbooks_favourites_include' and "
+            "'teachbooks_favourites_exclude' cannot both be set. "
+            "Use one or the other."
+        )
+
+    if include:
+        extensions_to_load = [ext for ext in ALL_EXTENSIONS if ext in include]
+    elif exclude:
+        extensions_to_load = [ext for ext in ALL_EXTENSIONS if ext not in exclude]
+    else:
+        extensions_to_load = ALL_EXTENSIONS
+
+    for ext in extensions_to_load:
+        app.setup_extension(ext)
+
     return {
         "version": "builtin",
         "parallel_read_safe": False,

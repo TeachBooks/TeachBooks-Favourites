@@ -140,6 +140,63 @@ For using the various packages we refer to the different manuals linked above.
 
 All extensions are loaded with their default settings.
 
+## Configuration
+
+By default, all extensions in TeachBooks-Favourites are activated. You can customise which extensions are loaded by setting either `teachbooks_favourites_include` **or** `teachbooks_favourites_exclude` in your `_config.yml`. Setting both at the same time will raise an error.
+
+### Exclude specific extensions
+
+Use `teachbooks_favourites_exclude` to disable one or more extensions while keeping all others. For example, to disable the tippy hover-over feature:
+
+```yaml
+sphinx:
+  config:
+    teachbooks_favourites_exclude:
+      - teachbooks_sphinx_tippy
+```
+
+### Include only specific extensions
+
+Use `teachbooks_favourites_include` to activate only the extensions you need, disabling everything else:
+
+```yaml
+sphinx:
+  config:
+    teachbooks_favourites_include:
+      - sphinx_exercise
+      - sphinx_proof
+      - sphinx.ext.todo
+```
+
+### Available extension names
+
+The following extension names can be used with `teachbooks_favourites_include` or `teachbooks_favourites_exclude`:
+
+| Extension name | Description |
+|---|---|
+| `jupyterbook_patches` | Various patches by TeachBooks |
+| `download_link_replacer` | Replace and add downloadable files to a page header |
+| `sphinx_image_inverter` | Inverts images for dark mode |
+| `sphinx_iframes` | Eases the embedding of iframes |
+| `sphinx_exercise` | Add exercise admonitions |
+| `teachbooks_sphinx_tippy` | Enables hover over tips |
+| `sphinx_named_colors` | Use custom colours in your book |
+| `sphinx_dropdown_toggle` | Button to toggle all dropdowns with one click |
+| `sphinx_proof` | Add common math admonitions such as theorems |
+| `sphinx_code_examples` | Include code blocks and alternative visuals in examples |
+| `sphinx_accessibility` | Dyslexic-friendly fonts and high contrast mode |
+| `sphinx_nb_execution_patterns` | Include/exclude patterns for notebook execution |
+| `sphinx-launch-buttons` | Add a customisable button with links to the top right corner |
+| `sphinx_github_alerts` | Converts GitHub alerts to Sphinx admonitions |
+| `sphinx_metadata_figure` | Add and display metadata for figures |
+| `sphinx_last_updated_by_git` | Last updated note per page based on git history |
+| `sphinx_gated_directives` | More granular control over directive nesting |
+| `teachbooks_zoomies` | Clickable images that open a zoomable view |
+| `teachbooks_questions` | Add interactive questions to your book |
+| `sphinx_sticky_margin` | Add a sticky copy figure in the margin |
+| `teachbooks_fetch` | Fetch html elements from other pages |
+| `sphinx.ext.todo` | Add to-do items |
+
 ## Contribute
 
 Do you think we missed an extension that should really be included? Let us know by either

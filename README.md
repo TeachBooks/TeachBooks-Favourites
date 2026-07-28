@@ -10,47 +10,58 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Manual: https://teachbooks.io/manual/features/live_code.html
 - Jupyterbook patches:
   - Various patches by TeachBooks
+  - Extension name: `jupyterbook_patches`
   - Repository: https://github.com/TeachBooks/JupyterBook-Patches
   - Manual: https://teachbooks.io/manual/external/JupyterBook-Patches/README.html
 - Download link replacer:
   - Allows you to replace and add downloadable files to a page header
+  - Extension name: `download_link_replacer`
   - Repository: https://github.com/TeachBooks/Download-Link-Replacer
   - Manual: https://teachbooks.io/manual/external/Download-Link-Replacer/README.html
 - Sphinx image inverter
   - Inverts images for dark mode
+  - Extension name: `sphinx_image_inverter`
   - Repository: https://github.com/TeachBooks/sphinx-image-inverter
   - Manual: https://teachbooks.io/manual/external/Sphinx-Image-Inverter/README.html
 - Sphinx iframes
   - Eases the embedding of iframes
+  - Extension name: `sphinx_iframes`
   - Repository: https://github.com/TeachBooks/sphinx-iframes
   - Manual: https://teachbooks.io/manual/external/sphinx-iframes/README.html
 - Sphinx exercise:
   - Allows you to add exercise admonitions to your book
+  - Extension name: `sphinx_exercise`
   - Repository: https://github.com/executablebooks/sphinx-exercise
   - Manual: https://ebp-sphinx-exercise.readthedocs.io/en/latest/
 - Teachbooks Sphinx tippy
   - Enables hover over tips
+  - Extension name: `teachbooks_sphinx_tippy`
   - Repository: https://github.com/TeachBooks/teachbooks-sphinx-tippy
   - Manual: https://teachbooks.io/manual/external/teachbooks-sphinx-tippy/README.html
   - Remark: This is a fork of https://github.com/executablebooks/sphinx-tippy specifically adapted for TeachBooks
 - Sphinx named colors
   - Allows you to use custom colors in your book
+  - Extension name: `sphinx_named_colors`
   - Repository: https://github.com/TeachBooks/sphinx-named-colors
   - Manual: https://teachbooks.io/manual/external/Sphinx-Named-Colors/README.html
 - Sphinx dropdown toggle
   - Adds a button to toggle all dropdowns with one click
+  - Extension name: `sphinx_dropdown_toggle`
   - Repository: https://github.com/TeachBooks/sphinx-dropdown-toggle
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Dropdown-Toggle/main/MANUAL.html
 - Sphinx proof:
   - Allows you to add various common math admonitions such as theorems to your book
+  - Extension name: `sphinx_proof`
   - Repository: https://github.com/executablebooks/sphinx-proof
   - Manual: https://sphinx-proof.readthedocs.io/en/latest/
 - Sphinx code examples
   - Allows you to include code blocks and alternative visuals in examples
+  - Extension name: `sphinx_code_examples`
   - Repository: https://github.com/TeachBooks/sphinx-code-examples
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_sphinx-code-examples/main/MANUAL.html
 - Sphinx accessibility
   - Allows dyslexic-friendly fonts and high contrast mode
+  - Extension name: `sphinx_accessibility`
   - Repository: https://github.com/TeachBooks/sphinx-accessibility
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Accessibility/manual/README.html
 - Sphinx toggle button
@@ -60,45 +71,56 @@ This Sphinx extension provides a single extension that includes and activates ou
   - Remark: Currently this is set to the TeachBooks fork, waiting for merge of https://github.com/executablebooks/sphinx-togglebutton/pull/66
 - NoteBook Execution Patterns
   - Allows include and exclude patterns for execution of notebooks during build
+  - Extension name: `sphinx_nb_execution_patterns`
   - Repository: https://github.com/TeachBooks/Sphinx-NB-Execution-Patterns
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-NB-Execution-Patterns/Manual/README.html
 - Sphinx Launch Buttons
   - Allows you to add a customizable button with links to the top right corner of your book
+  - Extension name: `sphinx-launch-buttons`
   - Repository: https://github.com/TeachBooks/manual
   - Manual: https://teachbooks.io/manual/external/Sphinx-launch-buttons/README.html
 - Sphinx GitHub Alerts
   - Converts GitHub alerts to Sphinx admonitions.
+  - Extension name: `sphinx_github_alerts`
   - Repository: https://github.com/TeachBooks/Sphinx-GitHub-Alerts
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-GitHub-Alerts/main/README.html
 - Spinx Metadata Figure
   - Provides an interface to add metadata to figures and display the metadata.
+  - Extension name: `sphinx_metadata_figure`
   - Repository: https://github.com/TeachBooks/Sphinx-Metadata-Figure
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Metadata-Figure/main/MANUAL.html
 - Sphinx last updated by git
   - Allows a last updated note for every single page based on git history.
+  - Extension name: `sphinx_last_updated_by_git`
   - Repository + documentation: https://github.com/TeachBooks/sphinx-last-updated-by-git
   - Remark: Currently this is set to the TeachBooks fork, waiting for merge of https://github.com/mgeier/sphinx-last-updated-by-git/pull/97
 - Sphinx gated directives
   - Allows to used gated directives: more granular control over where the directive starts and ends and nesting directives more easily allowing nesting of code-celsl
+  - Extension name: `sphinx_gated_directives`
   - Repository: https://github.com/TeachBooks/Sphinx-Gated-Directives
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Gated-Directives/main/MANUAL.html
 - Teachbooks Zoomies
   - Allows clickable images and figures: clicking on an image opens a zoomable view.
+  - Extension name: `teachbooks_zoomies`
   - Repository: https://github.com/TeachBooks/TeachBooks-Zoomies/
 - Teachbooks Questions
   - Allows you to add interactive questions to your book.
+  - Extension name: `teachbooks_questions`
   - Repository: https://github.com/TeachBooks/TeachBooks-Questions
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_TeachBooks-Questions/main/MANUAL.html
 - Sphinx-Sticky-Margin
   - Allows you to add a sticky copy figure in the margin
+  - Extension name: `sphinx_sticky_margin`
   - Repository: https://github.com/TeachBooks/Sphinx-Sticky-Margin
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_Sphinx-Sticky-Margin/main/MANUAL.html
 - TeachBooks Fetch
   - Allows you to fetch html elements from other pages
+  - Extension name: `teachbooks_fetch`
   - Repository: https://github.com/TeachBooks/TeachBooks-Fetch/
   - Manual: https://teachbooks.io/manual/_git/github.com_TeachBooks_TeachBooks-Fetch/main/MANUAL.html
 - Sphinx to do
   - Allows you to add to do items
+  - Extension name: `sphinx.ext.todo`
   - Repository: https://github.com/sphinx-doc/sphinx/blob/master/sphinx/ext/todo.py
   - Manual: https://www.sphinx-doc.org/en/master/usage/extensions/todo.html
 
@@ -168,34 +190,7 @@ sphinx:
       - sphinx.ext.todo
 ```
 
-### Available extension names
-
-The following extension names can be used with `teachbooks_favourites_include` or `teachbooks_favourites_exclude`:
-
-| Extension name | Description |
-|---|---|
-| `jupyterbook_patches` | Various patches by TeachBooks |
-| `download_link_replacer` | Replace and add downloadable files to a page header |
-| `sphinx_image_inverter` | Inverts images for dark mode |
-| `sphinx_iframes` | Eases the embedding of iframes |
-| `sphinx_exercise` | Add exercise admonitions |
-| `teachbooks_sphinx_tippy` | Enables hover over tips |
-| `sphinx_named_colors` | Use custom colours in your book |
-| `sphinx_dropdown_toggle` | Button to toggle all dropdowns with one click |
-| `sphinx_proof` | Add common math admonitions such as theorems |
-| `sphinx_code_examples` | Include code blocks and alternative visuals in examples |
-| `sphinx_accessibility` | Dyslexic-friendly fonts and high contrast mode |
-| `sphinx_nb_execution_patterns` | Include/exclude patterns for notebook execution |
-| `sphinx-launch-buttons` | Add a customisable button with links to the top right corner |
-| `sphinx_github_alerts` | Converts GitHub alerts to Sphinx admonitions |
-| `sphinx_metadata_figure` | Add and display metadata for figures |
-| `sphinx_last_updated_by_git` | Last updated note per page based on git history |
-| `sphinx_gated_directives` | More granular control over directive nesting |
-| `teachbooks_zoomies` | Clickable images that open a zoomable view |
-| `teachbooks_questions` | Add interactive questions to your book |
-| `sphinx_sticky_margin` | Add a sticky copy figure in the margin |
-| `teachbooks_fetch` | Fetch html elements from other pages |
-| `sphinx.ext.todo` | Add to-do items |
+The extension names to use are the `Extension name` values listed for each extension in the introduction above.
 
 ## Contribute
 

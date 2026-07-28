@@ -52,6 +52,22 @@ def setup(app: Sphinx) -> Dict[str, Any]:
             "Use one or the other."
         )
 
+    unknown_include = [ext for ext in include if ext not in ALL_EXTENSIONS]
+    if unknown_include:
+        raise ConfigError(
+            f"teachbooks_favourites: unknown extension(s) in "
+            f"'teachbooks_favourites_include': {unknown_include}. "
+            f"Valid names are: {ALL_EXTENSIONS}"
+        )
+
+    unknown_exclude = [ext for ext in exclude if ext not in ALL_EXTENSIONS]
+    if unknown_exclude:
+        raise ConfigError(
+            f"teachbooks_favourites: unknown extension(s) in "
+            f"'teachbooks_favourites_exclude': {unknown_exclude}. "
+            f"Valid names are: {ALL_EXTENSIONS}"
+        )
+
     if include:
         extensions_to_load = [ext for ext in ALL_EXTENSIONS if ext in include]
     elif exclude:

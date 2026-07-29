@@ -7,10 +7,13 @@ A collection of our favourite Sphinx extensions for use in JupyterBooks.
 
 """
 
+import difflib
 from typing import Any, Dict, List
 from sphinx.application import Sphinx
 from sphinx.errors import ConfigError
+from sphinx.util import logging
 
+logger = logging.getLogger(__name__)
 
 ALL_EXTENSIONS: List[str] = [
     "jupyterbook_patches",
@@ -42,8 +45,25 @@ def setup(app: Sphinx) -> Dict[str, Any]:
     app.add_config_value("teachbooks_favourites_include", [], "env")
     app.add_config_value("teachbooks_favourites_exclude", [], "env")
 
-    include: List[str] = app.config.teachbooks_favourites_include
-    exclude: List[str] = app.config.teachbooks_favourites_exclude
+    # app.config attributes still reflect defaults here because config.init_values()
+    # has not yet run when setup() is called.  To replicate what init_values() will
+    # do later we read from both _raw_config (conf.py namespace) and overrides
+    # (command-line -D flags and programmatic overrides such as JupyterBook's
+    # sphinx.config block from _config.yml), with overrides taking precedence.
+    # Sub-extensions must also be loaded here — before init_values() — so that
+    # their own add_config_value() calls are registered in time; loading them in a
+    # config-inited handler causes "unknown config value" warnings for any conf.py
+    # keys those extensions define.
+    raw: Dict[str, Any] = getattr(app.config, "_raw_config", {})
+    overrides: Dict[str, Any] = getattr(app.config, "overrides", {})
+    include: List[str] = overrides.get(
+        "teachbooks_favourites_include",
+        raw.get("teachbooks_favourites_include", []),
+    )
+    exclude: List[str] = overrides.get(
+        "teachbooks_favourites_exclude",
+        raw.get("teachbooks_favourites_exclude", []),
+    )
 
     if include and exclude:
         raise ConfigError(
@@ -54,19 +74,49 @@ def setup(app: Sphinx) -> Dict[str, Any]:
 
     unknown_include = [ext for ext in include if ext not in ALL_EXTENSIONS]
     if unknown_include:
-        raise ConfigError(
-            f"teachbooks_favourites: unknown extension(s) in "
-            f"'teachbooks_favourites_include': {unknown_include}. "
-            f"Valid names are: {ALL_EXTENSIONS}"
-        )
+        typos, unrecognised = [], []
+        for ext in unknown_include:
+            close = difflib.get_close_matches(ext, ALL_EXTENSIONS, n=1, cutoff=0.8)
+            if close:
+                typos.append(f"  {ext!r} → {close[0]!r}")
+                include = [close[0] if e == ext else e for e in include]
+            else:
+                unrecognised.append(ext)
+        if typos:
+            logger.warning(
+                "teachbooks_favourites: unknown extension(s) in "
+                "'teachbooks_favourites_include' will be corrected as follows:\n%s",
+                "\n".join(typos),
+            )
+        if unrecognised:
+            raise ConfigError(
+                f"teachbooks_favourites: unknown extension(s) in "
+                f"'teachbooks_favourites_include': {unrecognised}. "
+                f"Valid names are: {ALL_EXTENSIONS}"
+            )
 
     unknown_exclude = [ext for ext in exclude if ext not in ALL_EXTENSIONS]
     if unknown_exclude:
-        raise ConfigError(
-            f"teachbooks_favourites: unknown extension(s) in "
-            f"'teachbooks_favourites_exclude': {unknown_exclude}. "
-            f"Valid names are: {ALL_EXTENSIONS}"
-        )
+        typos, unrecognised = [], []
+        for ext in unknown_exclude:
+            close = difflib.get_close_matches(ext, ALL_EXTENSIONS, n=1, cutoff=0.8)
+            if close:
+                typos.append(f"  {ext!r} → {close[0]!r}")
+                exclude = [close[0] if e == ext else e for e in exclude]
+            else:
+                unrecognised.append(ext)
+        if typos:
+            logger.warning(
+                "teachbooks_favourites: unknown extension(s) in "
+                "'teachbooks_favourites_exclude' will be corrected as follows:\n%s",
+                "\n".join(typos),
+            )
+        if unrecognised:
+            raise ConfigError(
+                f"teachbooks_favourites: unknown extension(s) in "
+                f"'teachbooks_favourites_exclude': {unrecognised}. "
+                f"Valid names are: {ALL_EXTENSIONS}"
+            )
 
     if include:
         extensions_to_load = [ext for ext in ALL_EXTENSIONS if ext in include]

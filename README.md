@@ -192,6 +192,8 @@ sphinx:
 
 The extension names to use are the `Extension name` values listed for each extension in the introduction above.
 
+Please not that TeachBook's 'Sphinx-Thebe' and the TeachBook's fork of 'Sphinx toggle button' are always included as they override packages which are already imported by JupyterBooks.
+
 ## Contribute
 
 Do you think we missed an extension that should really be included? Let us know by either

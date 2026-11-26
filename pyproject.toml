@@ -17,7 +17,7 @@ dependencies = [
     "jupyterbook-patches==v1.16.0",
     "download-link-replacer==v1.0.6",
     "sphinx-image-inverter==v1.1.11",
-    "teachbooks-sphinx-tippy==v1.1.0",
+    "teachbooks-sphinx-tippy==v1.1.2",
     "sphinx-exercise==1.2.2",
     "sphinx-iframes==v1.2.1",
     "sphinx-named-colors==v1.0.3",
